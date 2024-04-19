@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.space {
+    background-color: #cbc5c5;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #747070;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #ddd;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.05s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.run-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.save-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+}
+
+.select {
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.code-editor textarea {
+    width: 100%;
+    height: 400px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    resize: none;
+}
+
+.output-window {
+    margin-top: 20px;
+}
+
+#output-header {
+    background-color: #ddd;
+    padding: 5px 10px;
+}
+
+#output-area {
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+}
